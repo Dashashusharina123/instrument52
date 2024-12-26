@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    position: relative;
+}
+.menu img{
+    width: 40px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul > li {
+    float: left;
+    position: relative;
+}
+
+.menu > ul > li > a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a {
+    background-color: #555;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 300px;
+    min-height: 200px;
+    z-index: 1;
+    padding-left: 25px;
+}
+
+.dropdown li {
+    float: none;
+}
+
+.dropdown a {
+    padding: 20px;
+    padding-bottom: 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    padding-top: 60px;
+    font-size: 20px;
+    background-color: #444;
+    justify-content: center;
+}
+
+.dropdown a:hover {
+    background-color: #83C812;
+}
+
+.menu > ul > li:hover .dropdown {
+    display: block;
+}
+.header{
+    background-color: #141414;
+}
+.header{
+    background-color: #141414;
+}
+.header .container .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .container .navigation .pic-1 img{
+    width: 30px;
+    height: 25px;
+}
+.header .container .navigation .pic-1{
+    display: flex;
+    padding-top: 13px;
+    cursor: pointer;
+}
+.header .container .navigation .pic-2 img{
+    width: 100px;
+}
+.header .container .navigation .pochta{
+    color: white;
+    align-content: center;
+}
+.content {
+    max-width: 600px;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    display: none;
+    margin-top: 10px;
+}
+.toggle {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sstr1{
+    background-color: #141414;
+}
+.sstr1 .container .bblok1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.sstr1 .container .bblok1 .leftt{
+    padding-top: 100px;
+    line-height: 1.5;
+    padding-bottom: 90px;
+}
+.sstr1 .container .bblok1 .prav{
+    padding-top: 130px;
+    margin-left: 100px;
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.slider-image {
+    display: none;
+    width: 600px; /* ширина изображения */
+    height: auto;
+}
+.slider-image.active {
+    display: block;
+}
+.slider-dots {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px; /* отступ между изображением и точками */
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+.dot.active {
+    background-color: #83C812;
+}
+.sstr2{
+    background-color: #141414;
+}
+.sstr2 .container .bblok2{
+    display: flex;
+    flex-direction: row;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+}
+.sstr2 .container .bblok2 .ogll{
+    display: flex;
+    font-size: 30px;
+    color: #bbb;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.sstr3{
+    background-color: #141414;
+}
+.sstr3 .container .bblok3 .cont .strok{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+.sstr3 .container .bblok3 .cont .strok .pic img{
+    width: 240px;
+}
+.sstr3 .container .bblok3 .cont .strok .txt{
+    color: white;
+}
+.sstr3 .container .bblok3 .cont .strok .txt .zaglov{
+    font-size: 22px;
+    color: #83C812;
+    margin-bottom: 7px;
+}
+.sstr3 .container .bblok3 .cont .strok .txt .opis{
+    color: white;
+    font-size: 21px;
+    text-align: justify;
+    text-align: justify;
+    line-height: 1.5;
+}
+.sstr3 .container .bblok3 .cont .strok .txt{
+    padding-left: 25px;
+}
+.sstr3 .container .bblok3 .ogll2{
+    color: #C0C4C9;
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 30px 0;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-button {
+    color: black;
+    text-decoration: none;
+    background-color: #83C812;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+.fbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+.footer-button:hover {
+    background-color: white;
+}
+.str6{
+    background-color: #141414;
+}

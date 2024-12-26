@@ -1,0 +1,1206 @@
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    position: relative;
+}
+.menu img{
+    width: 40px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul > li {
+    float: left;
+    position: relative;
+}
+
+.menu > ul > li > a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a {
+    background-color: #555;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 300px;
+    min-height: 200px;
+    z-index: 1;
+    padding-left: 25px;
+}
+
+.dropdown li {
+    float: none;
+}
+
+.dropdown a {
+    padding: 20px;
+    padding-bottom: 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    padding-top: 60px;
+    font-size: 20px;
+    background-color: #444;
+    justify-content: center;
+}
+
+.dropdown a:hover {
+    background-color: #83C812;
+}
+
+.menu > ul > li:hover .dropdown {
+    display: block;
+}
+.header{
+    background-color: #141414;
+}
+.str1{
+    background-color: #141414;
+}
+.str2{
+    background-color: #141414;
+}
+.header .container .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .container .navigation .pic-1 img{
+    width: 30px;
+    height: 25px;
+}
+.header .container .navigation .pic-1{
+    display: flex;
+    padding-top: 13px;
+    cursor: pointer;
+}
+.header .container .navigation .pic-2 img{
+    width: 100px;
+}
+.header .container .navigation .pochta{
+    color: white;
+    align-content: center;
+}
+.str1 .container .blok1{
+    display: flex;
+    flex-direction: row;
+}
+.str1 .container .blok1 .pic3 img{
+    width: 450px;
+}
+.str1 .container .blok1 .pic3{
+    margin-top: 90px;
+}
+.str1 .container .blok1 .text1{
+    margin-top: 150px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+.str1 .container .navigacia .nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background-color: #83C812;
+    color: white;
+    text-align: center;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+.navbar li {
+    display: inline;
+    margin: 30px 100px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: #83C812;
+}
+.str2 .container .blok2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.str2 .container .blok2 .textch{
+    width: 30%;
+}
+.str2 .container .blok2 .textch .gorodicifra{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-bottom: 15px;
+}
+.str2 .container .blok2 .textch .gorodicifra .pic-cifr img{
+    width: 50px;
+}
+.str2 .container .blok2 .textch .gorodicifra .gorod{
+    font-size: 28px;
+    padding-top: 5px;
+    color: white;
+    margin-left: 18px;
+}
+.str2 .container .blok2 .textch .spisok .region{
+    padding-bottom:25px ;
+}
+.str2 .container .blok2 .textch .spisok .region p{
+    font-size: 18px;
+    color: white;
+}
+.str2 .container .blok2 .pic4 img{
+    width: 100%;
+    margin-top: -50px;
+}
+.str2 .container .blok2 .pic4{
+    padding-bottom: 100px;
+}
+.str2 .container .blok2 .textch .ofiscentr .textverh p{
+    font-size: 18px;
+    color: white;
+}
+.str2 .container .blok2 .textch .ofiscentr .textverh{
+    padding-bottom: 10px;
+}
+.str2 .container .blok2 .textch .ofiscentr .textniz p{
+    font-size: 28px;
+    color: white;
+}
+.str2 .container .blok2 .textch .ofiscentr{
+    padding-bottom: 30px;
+}
+.str2 .container .blok2 .textch .spisok button{
+    background-color: #141414;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.str3 .container .blok3{
+    background-color: #141414;
+}
+.str3 .container .blok3 .kartochki{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 130px;
+}
+.str3 .container .blok3 .kartochki .kartochka1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px white;
+    width: 270px;
+    height: 360px;
+}
+.str3 .container .blok3 .kartochki .kartochka1 .pic5 img{
+    width: 170px;
+}
+.str3 .container .blok3 .kartochki .kartochka1 .pic5{
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.str3 .container .blok3 .kartochki .kartochka1 .nazv p{
+    font-size: 25px;
+    color: white;
+}
+.str3 .container .blok3 .zagl3 p{
+    color: #C0C4C9;
+    font-size: 24px;
+}
+.str3 .container .blok3 .zagl3{
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+.str3 .container .blok3 .oglav h1{
+    color: white;
+    font-size: 35px;
+}
+.str3 .container .blok3 .oglav{
+    padding-bottom: 100px;
+}
+.str4{
+    background-color: #141414;
+}
+.str4 .container .blok4{
+    display: flex;
+    flex-direction: column;
+}
+.str4 .container .blok4 .zagl4 p{
+    color: #C0C4C9;
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+.str4 .container .blok4 .oglav4 h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 50px;
+}
+.str4 .container .blok4 .karta1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+.str4 .container .blok4 .karta1 .pic7 img{
+    width: 320px;
+}
+.str4 .container .blok4 .karta1 .zagl h2{
+    font-size: 45px;
+    color: white;
+}
+.str4 .container .blok4 .karta1 .left{
+    padding-left: 50px;
+}
+.str4 .container .blok4 .karta1 .zagl{
+    padding-bottom: 15px;
+}
+.str4 .container .blok4 .karta1 .content p{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+}
+.content {
+    color: white;
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+.slider-images {
+    position: relative;
+}
+
+.slider-image {
+    display: none;
+    width: 450px; /* ширина изображения */
+    height: auto;
+}
+
+.slider-image.active {
+    display: block;
+}
+
+.slider-dots {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* отступ между изображением и точками */
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #83C812;
+}
+.str5 .container .blok5 .niz{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+.str5 .container .blok5 .niz .levaia{
+    width: 50%;
+    margin-right: 50px;
+}
+.str5 .container .blok5 .niz .levaia .txt1{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.str5 .container .blok5 .niz .levaia .txt2{
+    color: white;
+    font-size: 20px;
+}
+.str5 .container .blok5 .niz .pravaia .slider-container{
+    width: 100%;
+}
+.str5 .container .blok5 .niz .pravaia{
+    border-left: solid white 1px;
+}
+.str5 .container .blok5 .zagolovok{
+    font-size: 24px;
+    color: #C0C4C9;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 30px 0;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-button {
+    color: black;
+    text-decoration: none;
+    background-color: #83C812;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+.fbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+.footer-button:hover {
+    background-color: white;
+}
+@media (max-width: 1240px){
+    .slider-container {
+        display: flex;
+        align-items: center;
+        margin-top: -100px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1000px){
+    .str1 .container .blok1 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .str1 .container .blok1 .pic3 img {
+        width: 450px; /* Оставляем ширину изображения */
+        max-width: 100%; /* Ограничиваем ширину изображения, чтобы оно не превышало контейнер */
+    }
+    
+    .str1 .container .blok1 .pic3 {
+        margin-top: 150px;
+    }
+    
+    .str1 .container .blok1 .text1 {
+        margin-top: 150px;
+        color: white;
+        font-size: 20px;
+        padding-bottom: 200px;
+        max-width: calc(1000px - 480px); /* Подгоняем ширину текстового блока */
+    }
+    
+    .str1 .container .navigacia .nav {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        max-width: 1000px; /* Ограничиваем ширину навигации */
+        left: 50%; /* Центрируем навигацию */
+        transform: translateX(-50%); /* Центрируем по оси X */
+    }
+    
+    .navbar {
+        position: fixed;
+        bottom: 10px;
+        left: 50%; /* Центрируем навигацию */
+        transform: translateX(-50%); /* Центрируем по оси X */
+        width: 100%;
+        max-width: 1000px; /* Ограничиваем ширину навигации */
+        background-color: #83C812;
+        color: white;
+        text-align: center;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px;
+    }
+    
+    .navbar li {
+        display: inline;
+        margin: 30px 100px;
+    }
+    
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        width: 100px;
+        height: 30px;
+    }
+    
+    .navbar a:hover {
+        text-decoration: underline;
+        background-color: #83C812;
+    }
+    
+    .str2 .container .blok2 .textch {
+        width: 30%; /* Ширина текстового блока 100% для маленьких экранов */
+    }
+
+    .str2 .container .blok2 .textch .gorodicifra {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Изменяем align-content на align-items для правильного выравнивания элементов */
+    padding-bottom: 15px;
+    }
+
+    .str2 .container .blok2 .textch .gorodicifra .pic-cifr img {
+    width: 50px; /* Ширина изображения */
+    }
+
+    .str2 .container .blok2 .textch .gorodicifra .gorod {
+    font-size: 28px; /* Размер шрифта для города */
+    padding-top: 5px;
+    color: white;
+    margin-left: 18px;
+    }
+
+    .str2 .container .blok2 .textch .spisok .region {
+    padding-bottom: 25px;
+    }
+
+    .str2 .container .blok2 .textch .spisok .region p {
+    font-size: 18px; /* Размер шрифта списка регионов */
+    color: white;
+    }
+    .str2 .container .blok2 .pic4 img {
+        width: 600px;
+        margin-top: -50px; /* По необходимости, это значение может быть изменено */
+    }
+    
+    .str2 .container .blok2 .pic4 {
+        padding-bottom: 100px; /* По необходимости, это значение может быть изменено */
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr .textverh p {
+        font-size: 18px; 
+        color: white;
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr .textverh {
+        padding-bottom: 10px;
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr .textniz p {
+        font-size: 28px; 
+        color: white;
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr {
+        padding-bottom: 30px; /* По необходимости, это значение может быть изменено */
+    }
+    
+    .str2 .container .blok2 .textch .spisok button {
+        background-color: #141414;
+        font-size: 20px; 
+        color: white; 
+        cursor: pointer; 
+        text-decoration: underline;
+    }
+    .str2 .container .blok2 .textch .ofiscentr .textniz p {
+        font-size: 24px; /* Уменьшаем размер шрифта для небольших экранов */
+    }
+
+    .str2 .container .blok2 .textch .ofiscentr .textverh p {
+        font-size: 16px; /* Уменьшаем размер шрифта для небольших экранов */
+    }
+    .str2 .container .blok2 .textch .spisok button {
+        font-size: 18px; /* Уменьшаем размер шрифта для кнопки */
+    }  
+    .str3 .container .blok3 .kartochki {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 60px; /* Уменьшил отступ */
+        justify-content: space-between;
+        width: 700px;   /* Уменьшил ширину, 80% от 1000px */
+        margin-left: 100px; /* Уменьшил левый отступ */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: solid 1px white;
+        width: 200px; /* Уменьшил ширину */
+        height: 300px;  /* Уменьшил высоту */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 .pic5 img {
+        width: 120px; /* Уменьшил размер изображения */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 .pic5 {
+        padding-bottom: 30px;  /* Уменьшил отступ */
+        padding-top: 20px;  /* Уменьшил отступ */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 .nazv p {
+        font-size: 20px; /* Уменьшил размер шрифта */
+        color: white;
+    }
+    
+    .str3 .container .blok3 .zagl3 p {
+        color: #C0C4C9;
+        font-size: 20px;  /* Уменьшил размер шрифта */
+    }
+    
+    .str3 .container .blok3 .zagl3 {
+        padding-bottom: 15px;  /* Уменьшил отступ */
+        padding-top: 20px;  /* Уменьшил отступ */
+        width: 700px;
+    }
+    
+    .str3 .container .blok3 .oglav h1 {
+        color: white;
+        font-size: 30px; /* Уменьшил размер шрифта */
+        width: 700px;
+    }
+    
+    .str3 .container .blok3 .oglav {
+        padding-bottom: 50px;  /* Уменьшил отступ */
+        width: 700px;
+    }
+    .str3 .container .blok3{
+        width: 700px;
+    }
+    .str4 .container .blok4 {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+    .str4 .container .blok4 .zagl4 p {
+        color: #C0C4C9;
+        font-size: 20px; /* Уменьшил размер шрифта */
+        padding-bottom: 15px; /* Уменьшил отступ */
+        width: 700px;
+    }
+    
+    .str4 .container .blok4 .oglav4 h1 {
+        font-size: 32px; /* Уменьшил размер шрифта */
+        color: white;
+        padding-bottom: 30px; /* Уменьшил отступ */
+        width: 700px;
+    }
+    
+    .str4 .container .blok4 .karta1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;  /* Уменьшил отступ */
+        width: 900px;
+    }
+    
+    .str4 .container .blok4 .karta1 .pic7 img {
+        width: 240px; /* Уменьшил ширину изображения */
+    }
+    
+    .str4 .container .blok4 .karta1 .zagl h2 {
+        font-size: 35px; /* Уменьшил размер шрифта */
+        color: white;
+        width: 700px;
+    }
+    
+    .str4 .container .blok4 .karta1 .left {
+        padding-left: 30px;  /* Уменьшил отступ */
+    }
+    
+    .str4 .container .blok4 .karta1 .zagl {
+        padding-bottom: 10px; /* Уменьшил отступ */
+    }
+    
+    .str4 .container .blok4 .karta1 .content p {
+        line-height: 1.4; /* немного уменьшил межстрочное расстояние */
+        text-align: justify;
+        font-size: 16px; /* Уменьшил размер шрифта */
+        width: 600px;
+    }
+    
+    .content {
+        color: white;
+    }
+    
+    .slider-container {
+        display: flex;
+        align-items: center;
+        margin-top: -60px; /* Уменьшил верхний отступ */
+        margin-left: 30px; /* Уменьшил левый отступ */
+    }
+    
+    .slider-images {
+        position: relative;
+    }
+    
+    .slider-image {
+        display: none;
+        width: 320px; /* уменьшил ширину изображения */
+        height: auto;
+    }
+    
+    .slider-image.active {
+        display: block;
+    }
+    
+    .slider-dots {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px; /* уменьшил отступ между изображением и точками */
+    }
+    
+    .dot {
+        height: 10px;  /* Уменьшил размер точки */
+        width: 10px;  /* Уменьшил размер точки */
+        margin: 4px;  /* Уменьшил отступ */
+        border-radius: 50%;
+        background-color: #bbb;
+        cursor: pointer;
+        transition: background-color 0.6s ease;
+    }
+    
+    .dot.active {
+        background-color: #83C812;
+    }
+    .str5 .container .blok5 .niz {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 60px; /* Уменьшил отступ */
+    }
+    
+    .str5 .container .blok5 .niz .levaia {
+        width: 45%; /* Уменьшил ширину */
+        margin-right: 30px; /* Уменьшил отступ */
+    }
+    
+    .str5 .container .blok5 .niz .levaia .txt1 {
+        color: white;
+        font-size: 18px; /* Уменьшил размер шрифта */
+        padding-bottom: 10px; /* Уменьшил отступ */
+    }
+    
+    .str5 .container .blok5 .niz .levaia .txt2 {
+        color: white;
+        font-size: 18px; /* Уменьшил размер шрифта */
+    }
+    
+    .str5 .container .blok5 .niz .pravaia .slider-container {
+        width: 100%;
+    }
+    
+    .str5 .container .blok5 .niz .pravaia {
+        border-left: solid white 1px;
+        padding-left: 20px; /* Добавил отступ слева */
+    }
+    
+    .str5 .container .blok5 .zagolovok {
+        font-size: 20px;  /* Уменьшил размер шрифта */
+        color: #C0C4C9;
+        padding-bottom: 30px;  /* Уменьшил отступ */
+        margin-top: 60px;   /* Уменьшил отступ */
+    }
+    
+    footer {
+        background-color: #141414;
+        color: white;
+        padding: 20px 0; /* Уменьшил отступ сверху и снизу */
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        width: 900px; /* Уменьшил ширину, чтобы контейнер помещался в 1000px */
+        margin: 0 ;
+    }
+    
+    .footer-button {
+        color: black;
+        text-decoration: none;
+        background-color: #83C812;
+        padding: 8px 12px;  /* Уменьшил отступ */
+        transition: background-color 0.3s;
+    }
+    
+    .fbutton {
+        color: white;
+        text-decoration: none;
+        padding: 8px 12px; /* Уменьшил отступ */
+        text-decoration: underline;
+    }
+    
+    .footer-button:hover {
+        background-color: white;
+    }
+    .menu {
+        position: relative;
+        display: flex;
+        align-items: center; /* Выравнивание по вертикали */
+    }
+    
+    .menu img {
+        width: 30px; /* Уменьшил размер иконки */
+        margin-right: 10px; /* Добавил отступ справа от иконки */
+    }
+}
+@media (max-width: 740px){
+    .header .container .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 8px;  /* Уменьшил отступ сверху */
+        padding-bottom: 8px; /* Уменьшил отступ снизу */
+    }
+    
+    .header .container .navigation .pic-1 img {
+        width: 25px;  /* Уменьшил ширину иконки */
+        height: 20px; /* Уменьшил высоту иконки */
+    }
+    
+    .header .container .navigation .pic-1 {
+        display: flex;
+        padding-top: 10px; /* Уменьшил отступ сверху */
+        cursor: pointer;
+    }
+    
+    .header .container .navigation .pic-2 img {
+        width: 80px; /* Уменьшил ширину логотипа */
+    }
+    
+    .header .container .navigation .pochta {
+        color: white;
+        align-content: center;
+        font-size: 14px; /* Уменьшил размер шрифта почты */
+    }
+    .str1 .container .blok1 {
+        display: flex;
+        flex-direction: row;  /* Разрешаем элементам переноситься на новую строку */
+    }
+    
+    .str1 .container .blok1 .pic3 img {
+        width: 200px; /* Уменьшил ширину изображения */  /* Изображение не должно быть больше контейнера */
+        height: auto; /* Чтобы сохранить пропорции изображения */
+    }
+    
+    .str1 .container .blok1 .pic3 {
+        margin-top: 30px; /* Уменьшил отступ сверху */
+        flex: 0 0 auto; /* элемент не растягивается и не сжимается */
+    }
+    
+    .str1 .container .blok1 .text1 {
+        margin-top: 30px; /* Уменьшил отступ сверху */
+        color: white;
+        font-size: 12px;  /* Уменьшил размер шрифта */
+        padding-bottom: 80px; /* Уменьшил отступ снизу */
+        flex: 1 0 auto;  /* элемент может растягиваться */
+        padding-left: 20px; /* добавил левый отступ */
+        padding-right: 20px; /* добавил правый отступ */
+    }
+    
+    .str1 .container .navigacia .nav {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%; /* Полная ширина */
+        left: 0; /* прижимаем к левому краю */
+    }
+    
+    .navbar {
+        position: fixed;
+        bottom: 0; /* прижимаем к низу экрана */
+        left: 0;
+        width: 100%;
+        background-color: #83C812;
+        color: black; /* Цвет текста черный */
+        text-align: center;
+        box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* Тень сверху */
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0; /* Уменьшил отступ сверху и снизу */
+    }
+    .navbar li {
+        display: inline;
+        margin: 10px 20px; /* Уменьшил отступы слева и справа */
+    }
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px; /* Уменьшил отступы */
+        display: inline-block; /* элементы могут иметь отступы */
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+        background-color: #9ed64b;
+    }
+    .str2 .container .blok2 {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px; /* Уменьшил верхний отступ */
+    }
+    
+    .str2 .container .blok2 .textch {
+        width: 25%;  /* Увеличил ширину для текста (учитывая перенос на новую строку) */
+    }
+    
+    .str2 .container .blok2 .textch .gorodicifra {
+        display: flex;
+        flex-direction: row;
+        align-items: center; /* заменил align-content на align-items */
+        padding-bottom: 10px; /* Уменьшил нижний отступ */
+    }
+    
+    .str2 .container .blok2 .textch .gorodicifra .pic-cifr img {
+        width: 40px; /* Уменьшил ширину изображения */
+    }
+    
+    .str2 .container .blok2 .textch .gorodicifra .gorod {
+        font-size: 22px; /* Уменьшил размер шрифта */
+        padding-top: 2px; /* Уменьшил верхний отступ */
+        color: white;
+        margin-left: 12px; /* Уменьшил левый отступ */
+    }
+    
+    .str2 .container .blok2 .textch .spisok .region {
+        padding-bottom: 15px; /* Уменьшил нижний отступ */
+    }
+    
+    .str2 .container .blok2 .textch .spisok .region p {
+        font-size: 16px; /* Уменьшил размер шрифта */
+        color: white;
+    }
+    
+    .str2 .container .blok2 .pic4 img {
+        width: 50%; /* Изображение на 100% ширины контейнера */
+        margin-top: -30px;  /* Уменьшил верхний отступ */
+        max-width: 45%; /* Максимальная ширина картинки */
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .str2 .container .blok2 .pic4 {
+        padding-bottom: 50px; /* Уменьшил нижний отступ */
+        display: flex;
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr .textverh p {
+        font-size: 16px;  /* Уменьшил размер шрифта */
+        color: white;
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr .textverh {
+        padding-bottom: 5px; /* Уменьшил нижний отступ */
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr .textniz p {
+        font-size: 20px;  /* Уменьшил размер шрифта */
+        color: white;
+    }
+    
+    .str2 .container .blok2 .textch .ofiscentr {
+        padding-bottom: 20px; /* Уменьшил нижний отступ */
+    }
+    
+    .str2 .container .blok2 .textch .spisok button {
+        background-color: #141414;
+        font-size: 18px;  /* Уменьшил размер шрифта */
+        color: white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .str3 .container .blok3 .kartochki {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px; /* Уменьшил нижний отступ */
+        justify-content: space-around; /* Изменил на space-around */
+        width: 85%; /* Увеличил ширину */
+        margin-left: auto;  /* Изменил для центрирования */
+        margin-right: auto; /* Изменил для центрирования */
+        flex-wrap: wrap; /* Разрешаем элементам переноситься */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: solid 1px white;
+        width: 200px; /* Уменьшил ширину */
+        height: 280px; /* Уменьшил высоту */
+        margin-bottom: 20px; /* Отступ между карточками при переносе */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 .pic5 img {
+        width: 120px;  /* Уменьшил ширину изображения */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 .pic5 {
+        padding-bottom: 30px; /* Уменьшил нижний отступ */
+        padding-top: 20px;   /* Уменьшил верхний отступ */
+    }
+    
+    .str3 .container .blok3 .kartochki .kartochka1 .nazv p {
+        font-size: 20px;  /* Уменьшил размер шрифта */
+        color: white;
+    }
+    
+    .str3 .container .blok3 .zagl3 p {
+        color: #C0C4C9;
+        font-size: 20px;   /* Уменьшил размер шрифта */
+    }
+    
+    .str3 .container .blok3 .zagl3 {
+        padding-bottom: 15px; /* Уменьшил нижний отступ */
+        padding-top: 20px;  /* Уменьшил верхний отступ */
+    }
+    
+    .str3 .container .blok3 .oglav h1 {
+        color: white;
+        font-size: 28px;  /* Уменьшил размер шрифта */
+    }
+    
+    .str3 .container .blok3 .oglav {
+        padding-bottom: 50px;  /* Уменьшил нижний отступ */
+    }
+    .str4 .container .blok4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .str4 .container .blok4 .zagl4 p {
+        color: #C0C4C9;
+        font-size: 20px;  /* Уменьшил размер шрифта */
+        padding-bottom: 15px; /* Уменьшил отступ */
+    }
+    
+    .str4 .container .blok4 .oglav4 h1 {
+        font-size: 30px;  /* Уменьшил размер шрифта */
+        color: white;
+        padding-bottom: 30px; /* Уменьшил отступ */
+    }
+    
+    .str4 .container .blok4 .karta1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;  /* Уменьшил отступ */
+        flex-wrap: wrap;  /* Добавлено, чтобы элементы переносились */
+        width: 600px;
+    }
+    
+    .str4 .container .blok4 .karta1 .pic7 img {
+        width: 250px;  /* Уменьшил ширину изображения */
+         max-width: 100%; /* чтобы картинка не была больше контейнера */
+        height: auto;
+        padding-left: 20px;
+    }
+    
+    .str4 .container .blok4 .karta1 .zagl h2 {
+        font-size: 32px;   /* Уменьшил размер шрифта */
+        color: white;
+    }
+    
+    .str4 .container .blok4 .karta1 .left {
+        padding-left: 20px; /* Уменьшил отступ */
+          flex: 1;  /* Текст может растягиваться и занимать свободное место */
+    }
+    
+    .str4 .container .blok4 .karta1 .zagl {
+        padding-bottom: 10px; /* Уменьшил отступ */
+    }
+    .str4 .container .blok4 .karta1 .content p {
+        line-height: 1.4; /* Уменьшил межстрочный интервал */
+        text-align: justify;
+        font-size: 16px; /* Уменьшил размер шрифта */
+    }
+    
+    .content {
+        color: white;
+    }
+    
+    .slider-container {
+        display: flex;
+        align-items: center;
+        margin-top: -50px; /* Уменьшил верхний отступ */
+        margin-left: 20px; /* Уменьшил левый отступ */
+    }
+    
+    .slider-images {
+        position: relative;
+    }
+    
+    .slider-image {
+        display: none;
+        width: 300px; /* Уменьшил ширину изображения */
+        height: auto;
+    }
+    
+    .slider-image.active {
+        display: block;
+    }
+    
+    .slider-dots {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px; /* Уменьшил отступ между изображением и точками */
+    }
+    
+    .dot {
+        height: 10px;  /* Уменьшил размер точки */
+        width: 10px;   /* Уменьшил размер точки */
+        margin: 3px;   /* Уменьшил отступ */
+        border-radius: 50%;
+        background-color: #bbb;
+        cursor: pointer;
+        transition: background-color 0.6s ease;
+    }
+    
+    .dot.active {
+        background-color: #83C812;
+    }
+    .str5 .container .blok5 .niz {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px; /* Уменьшил отступ */
+        flex-wrap: wrap; /* Добавил перенос строк */
+    }
+    
+    .str5 .container .blok5 .niz .levaia {
+        width: 100%; /* Изменил ширину на 100% для мобильных */
+        margin-right: 0; /* Убрал отступ справа для мобильных */
+        margin-bottom: 20px; /* Добавил отступ снизу для мобильных */
+    } 
+      .str5 .container .blok5 .niz .levaia {
+          width: 30%; /* Уменьшил ширину */
+        margin-right: 20px; /* Уменьшил отступ для экранов 740px+ */
+        margin-bottom: 0px; /* Убрал отступ снизу для экранов 740px+ */
+        }
+    
+    .str5 .container .blok5 .niz .levaia .txt1 {
+        color: white;
+        font-size: 16px; /* Уменьшил размер шрифта */
+        padding-bottom: 10px;  /* Уменьшил отступ */
+    }
+    
+    .str5 .container .blok5 .niz .levaia .txt2 {
+        color: white;
+        font-size: 16px; /* Уменьшил размер шрифта */
+    }
+    
+    .str5 .container .blok5 .niz .pravaia .slider-container {
+        width: 10%;
+    }
+    
+    .str5 .container .blok5 .niz .pravaia {
+        border-left: solid white 1px;
+        padding-left: 2px; /* добавил отступ слева */
+        flex: 1; /* заставляем слайдер заполнить доступное пространство */
+        width: 20%;
+    }
+    
+    .str5 .container .blok5 .zagolovok {
+        font-size: 20px;  /* Уменьшил размер шрифта */
+        color: #C0C4C9;
+        padding-bottom: 30px;  /* Уменьшил отступ */
+        margin-top: 60px;   /* Уменьшил отступ */
+    }
+    footer {
+        background-color: #141414;
+        color: white;
+        padding: 20px 0; /* Уменьшил отступ сверху и снизу */
+        position: relative;
+        width: 600px;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%; /* Уменьшил ширину до 90% */
+        margin: 0 auto; /* Выравнивание по центру */
+    }
+    
+    
+    .footer-button {
+        color: black;
+        text-decoration: none;
+        background-color: #83C812;
+        padding: 8px 12px; /* Уменьшил отступы */
+        transition: background-color 0.3s;
+    }
+    
+    .fbutton {
+        color: white;
+        text-decoration: none;
+        padding: 8px 12px; /* Уменьшил отступы */
+        text-decoration: underline;
+    }
+    
+    .footer-button:hover {
+        background-color: white;
+    }
+    .menu {
+        position: relative;
+        display: flex; /* Используем flexbox */
+        align-items: center; /* Выравнивание по вертикали */
+    }
+    
+    .menu img {
+        width: 30px;  /* Уменьшил размер иконки */
+        margin-right: 5px; /* Уменьшил отступ */
+    }
+    
+    
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #444;
+        min-width: 220px; /* Уменьшил минимальную ширину */
+        min-height: 130px; /* Уменьшил минимальную высоту */
+        z-index: 1;
+        padding-left: 15px; /* Уменьшил отступ */
+         top: 100%; /* Располагаем выпадающее меню под элементом родителя */
+        left: 0;
+    }
+    .header .navigation{
+        width: 680px;
+    }
+    
+}

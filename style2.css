@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu {
+    position: relative;
+}
+.menu img{
+    width: 40px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul > li {
+    float: left;
+    position: relative;
+}
+
+.menu > ul > li > a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menu > ul > li:hover > a {
+    background-color: #555;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 300px;
+    min-height: 200px;
+    z-index: 1;
+    padding-left: 25px;
+}
+
+.dropdown li {
+    float: none;
+}
+
+.dropdown a {
+    padding: 20px;
+    padding-bottom: 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    display: flex;
+    padding-top: 60px;
+    font-size: 20px;
+    background-color: #444;
+    justify-content: center;
+}
+
+.dropdown a:hover {
+    background-color: #83C812;
+}
+
+.menu > ul > li:hover .dropdown {
+    display: block;
+}
+.header{
+    background-color: #141414;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #141414;
+}
+.header .container .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .container .navigation .pic-1 img{
+    width: 30px;
+    height: 25px;
+}
+.header .container .navigation .pic-1{
+    display: flex;
+    padding-top: 13px;
+    cursor: pointer;
+}
+.header .container .navigation .pic-2 img{
+    width: 100px;
+}
+.header .container .navigation .pochta{
+    color: white;
+    align-content: center;
+}
+.strr1{
+    background-color: #141414;
+}
+.strr1 .container .blokk1 .zagl p{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+.strr1 .container .blokk1 .strochka{
+    display: flex;
+    flex-direction: row;
+}
+.strr1 .container .blokk1 .strochka .cifra{
+    font-size: 54px;
+    color: white;
+    margin-right: 40px;
+}
+.strr1 .container .blokk1 .strochka .text .perv h2{
+    font-size: 28px;
+    color: #83C812;
+    margin-bottom: 7px;
+}
+.strr1 .container .blokk1 .strochka .text .sled p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.strr1 .container .blokk1 .strochka .text{
+    margin-top: 15px;
+}
+.strr2 .container .blokk2 .part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.strr2{
+    background-color: #141414;
+}
+.strr2 .container .blokk2 .part .log img{
+    width: 240px;
+}
+.strr2 .container .blokk2 .ogl p{
+    font-size: 24px;
+    color: #C0C4C9;
+    padding-top: 70px;
+}
+.strr3{
+    background-color: #141414;
+}
+.strr3 .container .ogl2 p{
+    font-size: 24px;
+    color: #C0C4C9;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.strr3 .container .blokk3 .str{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+.strr3 .container .blokk3 .str .textik .osn h2{
+    font-size: 28px;
+    color: #83C812;
+    margin-bottom: 7px;
+}
+.strr3 .container .blokk3 .str .textik .podr p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.strr3 .container .blokk3 .str .fotogr{
+    margin-right: 25px;
+}
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 30px 0;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-button {
+    color: black;
+    text-decoration: none;
+    background-color: #83C812;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+.fbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+.footer-button:hover {
+    background-color: white;
+}
+.str6{
+    background-color: #141414;
+}
